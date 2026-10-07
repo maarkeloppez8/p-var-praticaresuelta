@@ -31,19 +31,19 @@ public class Apartado030101 extends Apartado {
 		cabecera("01", "Correccion de errores de compilacion");
 
 		// Inicio modificacion
-		Int entero = 6;
-		long otroEntero = 1.000;
-		long decimal = 7.0;
-		double otroDecimal = 7,0;
-		byte enteroDe8Bits = 10000;
-		char caracter = a;
-		char otroCaracter = "a";
-		boolean booleano = "true";
-		short enteroDe16Bits = 50000;
+		int entero = 6;
+		long otroEntero = 1000;
+		long decimal = 70;
+		double otroDecimal = 7;
+		byte enteroDe8Bits = 1;
+		char caracter = 'a';
+		char otroCaracter = 'b';
+		boolean booleano = true;
+		short enteroDe16Bits = 500;
 
-		byte static = 5;
-		byte int = 3;
-		double _otra-Variable = 2.0;
+		byte num = 5;
+		byte numuno = 3;
+		double _otraVariable = 2.0;
 		// Fin modificacion
 	}
 
@@ -59,16 +59,16 @@ public class Apartado030101 extends Apartado {
 		cabecera("02", "Definicion de tipo de datos");
 
 		// Inicio modificacion
-		variable1 = 637;
-		variable2 = 637L;
-		variable3 = 6.37;
-		variable4 = 6.37f;
-		variable5 = 6.37d;
-		variable6 = '6';
-		variable7 = "6.37";
-		variable8 = 'a';
-		variable9 = "a";
-		variable10 = true;
+		short variable1 = 637;
+		long  variable2 = 637L;
+		double variable3 = 6.37;
+		double variable4 = 6.37f;
+		double variable5 = 6.37d;
+		char variable6 = '6';
+		double variable7 = 6.37;
+		char variable8 = 'a';
+		String variable9 = "a";
+		boolean variable10 = true;
 		// Fin modificacion
 	}
 
