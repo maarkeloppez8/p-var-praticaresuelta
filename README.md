@@ -16,3 +16,7 @@ Para probar el resultado de la práctica, se proporciona una clase de prueba. Es
 ```[ejercicio]``` Número de ejercicio (solo el número, ej. 01).
 
 IMPORTANTE: El repositorio remoto se deberá mantener actualizado después de completar cada apartado o al terminar cada sesión de trabajo. Se ha habilitado la funcionalidad del _autograding_ para obtener una nota que indica el avance del trabajo al realizar cada ```push``` al repositorio remoto.
+
+apartado 030101 ejercicio 04: al tener guardados los dos numeros decimales en un tipo de dato como es el double, se almacena un numero decimal muy aproximado a este y por eso el resultado de la resta, es otro decimla muy aproximado al resultado.
+
+apartao 030101 ejercicio 05: En este caso es al revés BigDecimal si que guarda los decimales con todo sus numeros y el resultado da un numero decimal completo.

@@ -28,9 +28,13 @@ public class Apartado030102 extends Apartado {
 
 		// Inicio modificacion
 		final int CONST=128;
-		int op1;
-		int op2;
-		int resultado;
+		int op1 = 10;
+		int calculo = ++op1 * 12;	
+		int op2 = --op1 + CONST;
+		int resultado = op2 % op1;
+		System.out.println("op1 = " + op1);
+		System.out.println("op2 = " + op2);	
+		System.out.println("resultado = " + resultado);
 		//Preincrementa op1 y multiplicalo por 12
 		//El valor de op2 es la suma op1 predecrementado con CONST
 		//Halla el resto de dividir op2 entre op1 y guardalo en resultado
@@ -49,10 +53,11 @@ public class Apartado030102 extends Apartado {
 		cabecera("02", "Utilizacion de operadores logicos");
 
 		// Inicio modificacion
-		int edad;
-		int numeroPartes;
-		boolean deportivo;
-		boolean rebaja;
+		int edad = 25;
+		int numeroPartes = 5;
+		boolean deportivo = true;
+		boolean rebaja = true; 
+		System.out.println("rebajas=" + rebaja);
 		// rebaja = expresion booleana
         /* DESCOMENTAR
 		System.out.println("Rebaja = " + rebaja);
