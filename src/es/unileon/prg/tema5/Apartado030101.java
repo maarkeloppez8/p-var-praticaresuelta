@@ -34,7 +34,7 @@ public class Apartado030101 extends Apartado {
 		int entero = 6;
 		long otroEntero = 1000;
 		long decimal = 70;
-		double otroDecimal = 7;
+		double otroDecimal = 7.8;
 		byte enteroDe8Bits = 1;
 		char caracter = 'a';
 		char otroCaracter = 'b';
@@ -62,10 +62,10 @@ public class Apartado030101 extends Apartado {
 		short variable1 = 637;
 		long  variable2 = 637L;
 		double variable3 = 6.37;
-		double variable4 = 6.37f;
+		float variable4 = 6.37f;
 		double variable5 = 6.37d;
 		char variable6 = '6';
-		double variable7 = 6.37;
+		float variable7 = 6.37f;
 		char variable8 = 'a';
 		String variable9 = "a";
 		boolean variable10 = true;
