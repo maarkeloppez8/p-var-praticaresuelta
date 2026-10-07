@@ -23,15 +23,17 @@ public class Apartado030103 extends Apartado {
 	 * </br>
 	 *
 	 * Consultar la clase <<Math>> del API de Java y programar el codigo
-	 * necesario para realizar la operacion: obtener la raiz cuadrada de 256
+	 * necesario para realizar la operacion: obtener la raiz cuadrada de 256;    la raiz cuadrada de 256 es 16.0
 	 */
 	public void ejercicio01() {
 		cabecera("01", "Calcular la raiz cuadrada de un numero");
 
 		// Inicio modificacion
+		double numero = 256;
+		double resultado = Math.sqrt(numero);
+		System.out.println(resultado);
 		// Fin modificacion
 	}
-
 	/**
 	 * Operadores matematicos - Clase <<Math>> - Ejercicio2.
 	 *
@@ -39,12 +41,15 @@ public class Apartado030103 extends Apartado {
 	 *
 	 * Consultar la clase <<Math>> del API de Java y programar el codigo
 	 * necesario para realizar la operacion: obtener el resultado de elevar al
-	 * cubo el numero 9
+	 * cubo el numero 9  ;   el resultado es 729.0
 	 */
 	public void ejercicio02() {
 		cabecera("02", "Calcular potencias");
 
 		// Inicio modificacion
+		double numero = 9;
+		double resultado = Math.pow(numero,3);
+		System.out.println(resultado);
 		// Fin modificacion
 	}
 
@@ -60,6 +65,10 @@ public class Apartado030103 extends Apartado {
 		cabecera("03", "Generar numeros aleatorios");
 
 		// Inicio modificacion
+		double numaleatorio = Math.random() * (10 - 5) + 5;
+		System.out.println(numaleatorio);
+
+
 		// Fin modificacion
 	}
 
