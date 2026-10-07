@@ -85,21 +85,20 @@ public class Apartado030101 extends Apartado {
 
 		// Inicio modificacion
 
-		//Numero de asignaturas de un curso
-		//Nota media de la asignatura
-		//Edad de una persona
-		//Salario mensual de un empleado
-		//Nombre de una asignatura
-		//Constante PI
-		//Constante VERDADERO
-		//Portal de la direccion de una vivienda
-		//Piso de la direccion de una vivienda
-		//Puerta la direccion de una vivienda
-
+		byte numeroasignaturas = 5;
+		byte notamedia = 9;
+		int edad = 20; 
+		int salariomensual = 1800;
+		String nombreasignatura = "programacion";
+		double constatntepi = 3.1416;
+		boolean constante = true;
+		String portaldevivienda = "4c";
+		byte pisovivienda = 3;
+		char puertapiso = 'A';		
 		// Fin modificacion
 	}
 
-	/**
+	/**030
 	 * Tipos de datos basicos - Ejercicio4.
 	 *
 	 * </br>
@@ -108,13 +107,12 @@ public class Apartado030101 extends Apartado {
 	 *
 	 * <ul>
 	 * <li> Compilar y ejecutar el metodo
-	 * <li> Analizar los resultados obtenidos
+	 * <li> Analizar los resultados obtenidos  aparece 2,8 - 1-5 = 1,2999999999999998.
 	 * <li> Explicar en el fichero LEEME.txt el porque de los resultados
 	 * </ul>
 	 */
 	public void ejercicio04() {
 		cabecera("04", "Formato decimales");
-
 		// Inicio modificacion
 		double valor1 = 2.8;
 		double valor2 = 1.5;
@@ -134,7 +132,7 @@ public class Apartado030101 extends Apartado {
 	 *
 	 * <ul>
 	 * <li> Compilar y ejecutar el metodo
-	 * <li> Analizar los resultados obtenidos
+	 * <li> Analizar los resultados:obtenidos al guardar los numeros en BigDecimal en vez de double, el resultado se guarada comlpeto y no en decimales aproximados y por eso se obtiene 1.3
 	 * </ul>
 	 */
 	public void ejercicio05() {
