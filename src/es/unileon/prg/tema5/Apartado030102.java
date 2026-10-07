@@ -76,11 +76,14 @@ public class Apartado030102 extends Apartado {
 		cabecera("03", "Calculos aritmeticos");
 
 		// Inicio modificacion
-		int segundos, horas, minutos;
 		int totalSegundos=56000;
+		int horas = totalSegundos / 3600;
+		int minutos = (totalSegundos % 3600) / 60;
+		int segundos = totalSegundos % 60;
+		System.out.println(horas + "h " + minutos + "m " + segundos + "s");
 		// Realizacion de calculos
          /* DESCOMENTAR
-		System.out.println(horas+"h "+minutos+"m "+segundos+"s ");
+		System.out.println(horas+"h "+minutos+"m "+segundos+"s ");   esto da como resultado 15h 33m 20s
 		*/
 		// Fin modificacion
 	}
