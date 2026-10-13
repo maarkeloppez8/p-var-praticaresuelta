@@ -39,8 +39,8 @@ package es.unileon.prg.tema5;
 
 
 
-      
-         System.out.println("Este es el caracter intermedio" + caracteritermedio );
+         System.out.println("sta es la posicion intermedia de la cadena " + posicionmedia );
+         System.out.println("Este es el caracter intermedio " + caracteritermedio );
          System.out.println("Este es el codigo del caracter intermedio " +  codigoCaracter );
 
         // Fin modificacion
@@ -65,13 +65,13 @@ package es.unileon.prg.tema5;
       boolean comparacion1 = cadena == otraCadena;
       boolean comparacion2 = cadena.equalsIgnoreCase(otraCadena);
       boolean comparacion3 = cadena.toLowerCase() == otraCadena.toLowerCase();
-      String cadenaMinusculas = cadena.toLowerCase();
+      
       
 
       System.out.println("Comparacion de si son iguales " + comparacion1);
       System.out.println("comparacion sin tener en cuenta minusculas" + comparacion2);
       System.out.println("Comparacion de las dos cadenas en minusculas " + comparacion3);
-      System.out.println(cadenaMinusculas);
+      
       // Fin modificacion
       }
    
@@ -90,6 +90,13 @@ package es.unileon.prg.tema5;
          String cadena = "Viaje al Parnaso";
          String otraCadena = "Persiles y Segismunda";
       // Inicio modificacion
+         String frasejunta = cadena +" " + otraCadena;
+         String concatenacion = cadena.concat(otraCadena);
+
+         System.out.println(frasejunta);
+         System.out.println(concatenacion);
+
+
         // Fin modificacion
       }
    
@@ -107,6 +114,11 @@ package es.unileon.prg.tema5;
          cabecera("04", "");
          String cadena = "Viaje al Parnaso";
         // Inicio modificacion
+        boolean prueba = cadena.endsWith("Parnaso");
+        boolean pruebaempieza = cadena.endsWith("Viaje");
+
+        System.out.println(prueba);
+        System.out.println(pruebaempieza);
         // Fin modificacion
       }
    
@@ -125,6 +137,21 @@ package es.unileon.prg.tema5;
          cabecera("05","");
          String cadena = "Viaje al Parnaso";
       // Inicio modificacion
+      boolean prueba = cadena.indexOf("p") != -1;
+      boolean pruebapar = cadena.indexOf("Par") != -1;
+      String ultimaOcurrencia = String.valueOf(cadena.lastIndexOf("a"));
+      String letraa = String.valueOf(cadena.lastIndexOf("a", 3));
+      String letras3 = String.valueOf(cadena.indexOf('a'));
+
+
+
+      System.out.println("El caracter p esta en la cadena " + prueba);
+      System.out.println("La cadena Par esta en la cadena " + pruebapar);
+      System.out.println("La ultima ocurrencia de la letra a en la cadena es " + ultimaOcurrencia);
+      System.out.println("La letra a empezando por la posicion 3 es " + letras3);
+      System.out.println("La posicion de la letra a en la cadena es " + letraa);
+
+
         // Fin modificacion  
       }
    
@@ -142,6 +169,11 @@ package es.unileon.prg.tema5;
       
          String cadena = "Viaje al Parnaso";
       // Inicio modificacion
+      String reemplazar = cadena.replace('a','*');
+      String reemplazarpalabra = cadena.replace("Parnaso", "Olimpo");
+
+      System.out.println(reemplazar);
+      System.out.println(reemplazarpalabra);
       // Fin modificacion
       }
    
@@ -158,6 +190,17 @@ package es.unileon.prg.tema5;
          cabecera("07", "");
          String cadena = "Viaje al Parnaso";
       // Inicio modificacion
+      int longitud = cadena.length();
+      int longitudmedia = longitud / 2;
+      String subcadenamedia = cadena.substring(longitudmedia);
+      
+      int posicions = cadena.indexOf('s');
+      int posicionj = cadena.indexOf('j');
+      String subcadenajs = cadena.substring(posicionj, posicions);
+
+      System.out.println(subcadenamedia);
+      System.out.println(subcadenajs);
+
         // Fin modificacion
       }
    
@@ -171,7 +214,9 @@ package es.unileon.prg.tema5;
        public void ejercicio08() {
          cabecera("08", "");
          String cadena = " La Galatea   ";
-      // Inicio modificacion
+      // Inicio modificacio 
+       String quitarespacio = cadena.trim();
+       System.out.println(quitarespacio);
         // Fin modificacion
       }
    
@@ -188,6 +233,13 @@ package es.unileon.prg.tema5;
          boolean expresion = true;
          long enteroGrande = 1231231L;
       // Inicio modificacion
+      String numero1 = String.valueOf(numero);
+      String numeerobooleanString = String.valueOf(expresion);
+      String numerolong = String.valueOf(enteroGrande);
+
+      System.out.println(numero1);
+      System.out.println(numeerobooleanString);
+      System.out.println(numerolong);
         // Fin modificacion
       }
    
