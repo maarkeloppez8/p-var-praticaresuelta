@@ -32,6 +32,17 @@ package es.unileon.prg.tema5;
          cabecera("01","");
          String cadena = "En un lugar de la Mancha";
         // Inicio modificacion
+        int longitud = cadena.length();
+        int posicionmedia = cadena.length() / 2;
+        char caracteritermedio = cadena.charAt(posicionmedia);
+        int codigoCaracter = (int) caracteritermedio;
+
+
+
+      
+         System.out.println("Este es el caracter intermedio" + caracteritermedio );
+         System.out.println("Este es el codigo del caracter intermedio " +  codigoCaracter );
+
         // Fin modificacion
       }
    
@@ -50,6 +61,17 @@ package es.unileon.prg.tema5;
          String cadena = "Viaje al Parnaso";
          String otraCadena = "ViAje al pArnaso";
       // Inicio modificacion
+
+      boolean comparacion1 = cadena == otraCadena;
+      boolean comparacion2 = cadena.equalsIgnoreCase(otraCadena);
+      boolean comparacion3 = cadena.toLowerCase() == otraCadena.toLowerCase();
+      String cadenaMinusculas = cadena.toLowerCase();
+      
+
+      System.out.println("Comparacion de si son iguales " + comparacion1);
+      System.out.println("comparacion sin tener en cuenta minusculas" + comparacion2);
+      System.out.println("Comparacion de las dos cadenas en minusculas " + comparacion3);
+      System.out.println(cadenaMinusculas);
       // Fin modificacion
       }
    
