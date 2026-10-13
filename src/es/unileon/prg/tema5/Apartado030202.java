@@ -34,8 +34,24 @@ package es.unileon.prg.tema5;
          boolean logica=true;
          String otraCadena="Cervantes";
          int año=1616;
+
+        
       
       // Inicio modificacion
+      cadena.append(logica);
+      System.out.println(cadena.toString());
+
+      cadena.append(otraCadena);
+      System.out.println(cadena.toString());
+
+      cadena.append(año);
+      System.out.println(cadena.toString());
+
+      System.out.println(cadena.length());
+      System.out.println(cadena.capacity());
+
+
+
         // Fin modificacion
       }
    
@@ -52,7 +68,9 @@ package es.unileon.prg.tema5;
          cabecera("02", "");
          StringBuffer cadena=new StringBuffer("Viaje al Parnaso");
       // Modificaciones
+      cadena.insert(9,"mitico ");
       
+      cadena.insert(9,'M');
          System.out.println(cadena.toString());
       
       }
@@ -71,6 +89,9 @@ package es.unileon.prg.tema5;
       
          StringBuffer cadena=new StringBuffer("Viaje al Parnaso");
       // Modificaciones
+      cadena.replace(9,16,"Castalia");
+      cadena.deleteCharAt(7);
+   
       
          System.out.println(cadena.toString());
       }
@@ -87,6 +108,7 @@ package es.unileon.prg.tema5;
       
          StringBuffer cadena=new StringBuffer("Viaje al Parnaso");
       // Modificaciones
+      cadena.reverse();
       
          System.out.println(cadena.toString());  
       }
@@ -105,6 +127,11 @@ package es.unileon.prg.tema5;
      	StringBuffer cadena=new StringBuffer("Viaje al Parnaso");
 		String otraCadena=new String("Viaje desde Arcadia");
 		//modificaciones
+   
+      cadena.insert(0,otraCadena);
+      cadena.insert(22," ");
+
+      System.out.println(otraCadena.toString());
       }
    
    }
