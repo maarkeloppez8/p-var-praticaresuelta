@@ -29,9 +29,8 @@ public class Apartado030103 extends Apartado {
 		cabecera("01", "Calcular la raiz cuadrada de un numero");
 
 		// Inicio modificacion
-		double numero = 256;
-		double resultado = Math.sqrt(numero);
-		System.out.println(resultado);
+		Math.sqrt(256);
+		System.out.println("La raiz cuadrada de 256 es: " + Math.sqrt(256));
 		// Fin modificacion
 	}
 	/**
@@ -89,5 +88,7 @@ public class Apartado030103 extends Apartado {
 		System.out.println(superficie);
 		// Fin modificacion
 	}
+}
+	
 
 
