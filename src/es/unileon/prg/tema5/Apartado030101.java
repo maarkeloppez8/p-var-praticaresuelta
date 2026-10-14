@@ -31,10 +31,10 @@ public class Apartado030101 extends Apartado {
 		cabecera("01", "Correccion de errores de compilacion");
 
 		// Inicio modificacion
-		int entero = 6;
-		long otroEntero = 1000;
+		byte entero = 6;
+		short otroEntero = 1000;
 		long decimal = 70;
-		double otroDecimal = 7.8;
+		float otroDecimal = 7.8f;
 		byte enteroDe8Bits = 1;
 		char caracter = 'a';
 		char otroCaracter = 'b';
