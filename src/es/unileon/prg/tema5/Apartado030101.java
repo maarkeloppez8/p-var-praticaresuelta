@@ -44,6 +44,7 @@ public class Apartado030101 extends Apartado {
 		byte num = 5;
 		byte numuno = 3;
 		double _otraVariable = 2.0;
+		
 		// Fin modificacion
 	}
 
