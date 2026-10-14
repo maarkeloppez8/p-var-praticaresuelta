@@ -45,6 +45,11 @@ public class Apartado030203 extends Apartado {
 		System.out.println(10.5);
 		System.out.println("Cadena de caracteres");
 		System.out.println(alumno);
+
+		
+
+		
+
         // Fin modificacion
 	}
 

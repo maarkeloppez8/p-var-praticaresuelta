@@ -7,21 +7,9 @@ package es.unileon.prg.tema5;
  * @version 1.0
  */
 public class Alumno {
-	/**
-	 * Identificador del alumno
-	 * 
-	 * @see String
-	 */
+	
 	private String niu;
-	/**
-	 * Nombre del alumno
-	 * 
-	 * @see String
-	 */
 	private String nombre;
-	/**
-	 * Nota del alumno
-	 */
 	private float nota;
 
 	/**
@@ -51,7 +39,7 @@ public class Alumno {
 	 * (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
-	/*
+	
 	public String toString() {
 		StringBuffer salida = new StringBuffer();
 		
@@ -60,6 +48,7 @@ public class Alumno {
 		salida.append("Nota: " + this.nota + " ");
 		
 		return salida.toString();
-	}
-	*/
-}
+     }}
+
+	
+

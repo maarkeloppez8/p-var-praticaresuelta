@@ -7,17 +7,9 @@ package es.unileon.prg.tema5;
  * @version 1.0
  */
 public class Profesor {
-	/**
-	 * Identificador del profesor
-	 *
-	 * @see String
-	 */
+	
 	private String niu;
-	/**
-	 * Nombre del profesor
-	 *
-	 * @see String
-	 */
+	
 	private String nombre;
 
 	/**
@@ -32,5 +24,15 @@ public class Profesor {
 		this.niu = niu;
 		this.nombre = nombre;
 	}
+
+	public String toString() {
+		StringBuffer salida = new StringBuffer();
+		salida.append("NIU: " + this.niu + " ");
+		salida.append("Nombre: " + this.nombre + " ");
+		return salida.toString();
+	}
+
+	
 }
+
 
