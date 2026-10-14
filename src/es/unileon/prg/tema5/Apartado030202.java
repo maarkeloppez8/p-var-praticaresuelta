@@ -127,11 +127,11 @@ package es.unileon.prg.tema5;
      	StringBuffer cadena=new StringBuffer("Viaje al Parnaso");
 		String otraCadena=new String("Viaje desde Arcadia");
 		//modificaciones
-   
+      cadena.delete(0,5);
       cadena.insert(0,otraCadena);
-      cadena.insert(22," ");
+      
 
-      System.out.println(otraCadena.toString());
+      System.out.println(cadena.toString());
       }
    
    }
